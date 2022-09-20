@@ -1,0 +1,24 @@
+{
+  "name": "razealanout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed-BRAHIMI/RAZEALANOUT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmed-BRAHIMI/RAZEALANOUT/issues"
+  },
+  "homepage": "https://github.com/Ahmed-BRAHIMI/RAZEALANOUT#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "sequelize": "^6.23.0"
+  }
+}
