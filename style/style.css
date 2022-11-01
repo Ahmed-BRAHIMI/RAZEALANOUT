@@ -47,5 +47,5 @@ nav a{
 
 a.active,a:hover{
     border: 1px solid white;
-    transition: 0.7s;
+    transition: 0.4s;
 }
