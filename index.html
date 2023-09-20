@@ -7,39 +7,26 @@
     <head>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>  
 
-    <link rel="stylesheet" href="style/style.css">
-
-</head>
+    </head>
 
     <body>
+        <div id = "app"></div>
+
+        <script>
+            let helloWorldElem = react.createElement('div', {id: 'message'}, 'Hello World');
+
+            ReactDom.createRoot(document.getElementById('app')).render(helloWorldElem);
+        </script>
         
 
 </body>
 
 
-<nav>
 
-    <label class="logo">Prendre soin de son palais</label>
-
-    <ul>
-
-        <li><a class="active" href="#">Acceuil</a></li>
-
-        <li><a href="#">Epices</a></li>
-
-        <li><a href="#">Pourquoi Razealanout?</a></li>
-
-        <li><a href="#">Contact</a></li>        
-
-    </ul>
-
-    
-
-</nav>
 
 </html>
