@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+
+import NavBar from './NavBar';
+import List from './List';
 import './App.css';
 
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const epices = ['cumin', 'paprika', 'curcuma', 'poivre'];
+
+  return(
+    <>            
+      <NavBar title="Le vrai gout des choses et rien de plus!"/>
+  
+      <div className="container">
+      <List
+          title="Epices"
+          items={epices[2]}
+      />
+      </div>
+      
+    </>
+  )
 }
 
 export default App;
