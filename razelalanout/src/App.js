@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import NavBar from './NavBar';
-import List from './List';
+import NavBar from './components/NavBar';
+import List from './components/List';
+import Header from './components/Header';
 import './App.css';
 
 
@@ -23,7 +24,10 @@ export default function App() {
     const epices = ['cumin', 'paprika', 'curcuma', 'poivre'];
 
   return(
-    <>            
+    <>   
+       <div>
+      <Header/>
+      </div>    
       <NavBar title="Le vrai gout des choses et rien de plus!"/>
       
   
